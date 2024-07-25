@@ -238,6 +238,9 @@ Error generating stack: `+o.message+`
   @media (max-width: 768px) {
     height: 500px;
   }
+  @media (max-width: 576px) {
+    height: 400px;
+  }
 `,Q1=ie.div`
   display: flex;
   flex-direction: column;
