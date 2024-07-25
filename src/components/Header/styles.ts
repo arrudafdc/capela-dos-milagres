@@ -29,6 +29,26 @@ export const HeaderContainer = styled.div`
     font-family: "Comfortaa", serif;
   }
 
+  a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+  }
+
+  a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px; /* Ajuste a posição da linha */
+    width: 0;
+    height: 1px; /* Ajuste a altura da linha */
+    background-color: white;
+    transition: width 0.3s ease-in-out; /* Transição para a animação */
+  }
+
+  a:hover::after {
+    width: 100%; /* Define a largura completa no hover */
+  }
   @media (max-width: 1200px) {
     nav {
       display: none;

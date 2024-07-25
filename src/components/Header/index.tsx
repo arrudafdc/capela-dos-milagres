@@ -13,10 +13,18 @@ export function Header() {
           </button>
           <nav>
             <ul>
-              <li>A Rota</li>
-              <li>Sustentabilidade</li>
-              <li>Galeria</li>
-              <li>Blog</li>
+              <li>
+                <a href="#">A Rota</a>
+              </li>
+              <li>
+                <a href="#">Sustentabilidade</a>
+              </li>
+              <li>
+                <a href="#">Galeria</a>
+              </li>
+              <li>
+                <a href="#">Blog</a>
+              </li>
             </ul>
           </nav>
         </HeaderContainer>
