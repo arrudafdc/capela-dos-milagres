@@ -5,7 +5,7 @@ import { Home } from "./pages/Home/index";
 export function Router() {
   return (
     <Routes>
-      <Route path="/" element={<DefaultLayout />}>
+      <Route path="/capela-dos-milagres" element={<DefaultLayout />}>
         <Route index element={<Home />} />
       </Route>
     </Routes>
