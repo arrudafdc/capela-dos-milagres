@@ -64,7 +64,7 @@ export const Hero = styled.div`
 `;
 
 export const AboutSection = styled.section`
-  margin-bottom: 12.5rem;
+  margin-bottom: 7.5rem;
 
   p {
     font-size: 2.25rem;
