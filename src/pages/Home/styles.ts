@@ -8,6 +8,7 @@ import image4 from "../../../public/about/image4.png";
 import image5 from "../../../public/about/image5.png";
 import image6 from "../../../public/about/image6.png";
 import image7 from "../../../public/about/image7.png";
+import teste from "../../../public/about/teste.png";
 
 export const Hero = styled.div`
   background: gray;
@@ -92,7 +93,11 @@ export const AboutImageGrid = styled.section`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
-  height: 442px;
+  height: 500px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const Image1 = styled.div`
@@ -107,14 +112,24 @@ export const Image3 = styled.div`
   background: url(${image3}) no-repeat center center/cover;
 `;
 
+export const Teste = styled.div`
+  display: none;
+  background: url(${teste}) no-repeat center center/cover;
+
+  @media (max-width: 768px) {
+    display: block;
+    height: 700px;
+  }
+`;
+
 export const AboutImageGridTwo = styled.section`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  height: 442px;
+  height: 600px;
 `;
 
-export const Teste = styled.div`
+export const AuxGridTwo = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;

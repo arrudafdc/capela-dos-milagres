@@ -4,6 +4,7 @@ import {
   AboutImageGridThree,
   AboutImageGridTwo,
   AboutSection,
+  AuxGridTwo,
   Hero,
   Image1,
   Image2,
@@ -36,6 +37,7 @@ export function Home() {
             <Image2></Image2>
             <Image3></Image3>
           </AboutImageGrid>
+          <Teste></Teste>
         </Container>
       </AboutSection>
       <AboutSection>
@@ -47,10 +49,10 @@ export function Home() {
           </p>
           <AboutImageGridTwo>
             <Image4></Image4>
-            <Teste>
+            <AuxGridTwo>
               <Image5></Image5>
               <Image6></Image6>
-            </Teste>
+            </AuxGridTwo>
           </AboutImageGridTwo>
         </Container>
       </AboutSection>
