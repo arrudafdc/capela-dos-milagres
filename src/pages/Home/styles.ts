@@ -131,6 +131,9 @@ export const AboutImageGridTwo = styled.section`
   @media (max-width: 768px) {
     height: 500px;
   }
+  @media (max-width: 576px) {
+    height: 400px;
+  }
 `;
 
 export const AuxGridTwo = styled.div`
