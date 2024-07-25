@@ -127,6 +127,10 @@ export const AboutImageGridTwo = styled.section`
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   height: 600px;
+
+  @media (max-width: 768px) {
+    height: 500px;
+  }
 `;
 
 export const AuxGridTwo = styled.div`
